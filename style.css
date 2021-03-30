@@ -193,22 +193,16 @@ body, html{
 
 }
 
-
-
 .btn1 {
 
     margin-left: 28%;
-    padding-top: 10px;
-
-    width: 15%;
-    height: 10%;
+    padding: 10px;
 
     display: inline-flex;
     
     transition-duration: 0.4s;
     cursor: pointer;
     text-align: center;
-    
 
     border: 2px solid #202060;
     border-radius:10px ;
@@ -222,10 +216,7 @@ body, html{
   .btn2 {
 
     margin-left: 8%;
-    padding-top: 10px;
-
-    width: 19%;
-    height: 10%;
+    padding: 10px;
 
     display: inline-flex;
     
@@ -386,14 +377,28 @@ body, html{
 
 .projet-header{
     margin-top: 10px;
+    margin-left:10%;
+    margin-bottom: 2%;
 }
 
+.projet-header button{
+    margin-left: 10%;
+    margin-top: 2%;
+    padding:5px;
+    font-size:25px; 
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius:5px;
+    transition-duration: 0.4s;
+}
+
+.projet-header button:hover{
+    background-color:#602080;
+    color: white;
+}
 
 .projet-header a {
-    margin-left: 20%;
-    text-decoration: none;
     color: black;
-    font-size:25px; 
 }
 
 .projet-header a:hover{
@@ -484,6 +489,14 @@ body, html{
     margin-right: 2%;
     margin-left: 1%;
    
+}
+
+.foot_techno_box p{
+    font-size:40px;
+}
+
+.foot_techno_box a{
+    color: #7a2cd4;
 }
 
 /*------*/
